@@ -1,0 +1,173 @@
+.library{
+    min-width: 960px;
+    margin-top: 80px;
+    min-height: 300px;
+    font-family: 'Quicksand', sans-serif;;
+}
+
+.library h2 {
+    color: #0C3547;
+    font-family: museosans;
+    margin: 15px;
+    font-size: 32px;
+    font-weight: 500;
+    text-align: center;
+} 
+
+.acerv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+  
+.gallery img {
+    width: 140px;
+    height: 140px;
+    border-radius: 2px;
+    margin-left: 28px;
+    margin-top: 10px;
+}
+  
+.books {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 50px 50px 0 50px;
+}
+
+.book {
+    padding: 30px; 
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px rgba(44, 64, 110, 0.733);
+    max-width: 235px;
+    max-height: 320px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 15px;
+    transition:all 0.4s ease;
+    margin: 20px;
+}
+
+.book:hover{
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.book img {
+    height: 200px;
+    width: 160px;
+    box-shadow: 5px 5px 15px rgba(40, 50, 80, 0.733);
+    border-radius: 5px;
+}
+
+.book h3 {
+    margin-top: 10px;
+    text-align: center;
+    color: #0C3547;
+}
+
+.book h4 {
+    text-align: center;
+}
+
+
+#imgLivro img{
+    height: 300px;
+    width: 220px;
+    border-radius: 5px;
+}
+#imgLivro{
+    display: inline-block;
+    background-color: rgb(255, 255, 255);
+    height: 300px;
+    width: 220px;
+    margin: 20px;
+}
+#resumo{
+    float: right;
+    background-color: #d6d3d391;
+    height: 300px;
+    padding: 18px;
+    width: 620px;
+    margin: 20px 0 0 20px;
+    border-radius: 5px;
+    overflow: auto;
+    font-size: 18px;
+}
+
+#infoLivro{
+    display: inline-block;
+    height: 150px;
+    width: 220px;
+    margin: 5px 0 0 20px;
+    font-size: 15px;
+}
+
+.library span{
+    font-weight: bold;
+}
+
+
+
+/* .livro img {
+    height: 300px;
+    width: 210px;
+    margin: 20px 0 0 0;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgba(40, 50, 80, 0.733);
+}
+
+.livro a {
+    text-decoration: none;
+} */
+
+.user{
+    position: relative;
+    height: 50px;
+    width: 50px;
+    margin-right: 380px;
+    margin-left: 20px;
+    display: inline-block;
+    bottom: 50px;
+}
+.user #seta{
+    height: 100%;
+    width: 100%;
+    margin-right: 380px;
+    margin-left: 80px;
+    transition:all 0.3s ease;
+}
+
+
+.user #seta:hover{
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.botao button {
+    border-radius: 5px;
+    background-color: #6f8aa8;
+    border: none;
+    color: white;
+    box-shadow: 2px 2px 6px black;
+    text-align: center;
+    font-size: 18px;
+    padding: 15px;
+    width: 150px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin-left: 700px;
+    display: inline-block;
+}
+
+.botao button:hover{
+    -webkit-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    transform: scale(0.9);
+    transition: all 0.5s;
+    background-color: #1b5068;
+}
+
